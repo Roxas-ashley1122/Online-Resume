@@ -60,6 +60,10 @@
       grid-template-columns: 1fr 2fr;
       gap: 30px;
     }
+    aside {
+      border-right: 2px solid #ccc;
+      padding-right: 20px;
+    }
     h2 {
       font-size: 18px;
       margin: 0 0 10px;
@@ -70,6 +74,16 @@
     h3 {
       margin: 0;
       font-size: 16px;
+    }
+    .job-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+    .date {
+      font-size: 14px;
+      font-weight: bold;
+      color: #333;
     }
     .role {
       font-size: 14px;
@@ -111,24 +125,28 @@
       <aside>
         <section>
           <h2>Education</h2>
-          <p><strong>BSIT Web and Mobile Application</strong><br>
-          City College of Calamba<br>
-          2022–2025</p>
+          <p><strong>Malagasang ll— Elementary School </strong><br>
+          2014 – 2021</p>
+          <p><strong>General Tomas Mascardo National High School</strong><br>
+          2021 – 2025</p>
+          <p><strong>UCC – Unida Christian Colleges</strong><br>
+          2025 – 2027</p>
         </section>
         <section>
           <h2>Expertise</h2>
           <ul>
-            <li>UI/UX Design</li>
-            <li>Logo Design</li>
-            <li>Layouting</li>
-            <li>Web Design</li>
+            <li>Management Skills</li>
+            <li>Digital Marketing</li>
+            <li>Negotiation</li>
+            <li>Critical Thinking</li>
+            <li>Communication Skills</li>
           </ul>
         </section>
         <section>
-          <h2>Languages</h2>
+          <h2>Language</h2>
           <ul>
             <li>English</li>
-            <li>Tagalog</li>
+            <li>Filipino</li>
           </ul>
         </section>
       </aside>
@@ -138,30 +156,42 @@
         <section>
           <h2>Profile</h2>
           <p>
-            Highly motivated and creative Graphic Designer with a strong passion
-            for visual storytelling. Skilled in creating compelling graphics,
-            branding, and user-centered designs. Adaptable and eager to learn
-            new tools and techniques to enhance design quality.
+            I am a motivated and adaptable individual with strong interpersonal skills and a passion for creativity. I enjoy working with others, solving problems, and exploring new ideas. I am eager to learn, take on new challenges, and contribute positively to any team or project.
           </p>
         </section>
         <section>
           <h2>Work Experience</h2>
           <article>
-            <h3>Freelance Graphic Designer</h3>
-            <p class="role">2023 – Present</p>
+            <div class="job-header">
+              <h3>Ginyard International Co.</h3>
+              <span class="date">2027 – 2028</span>
+            </div>
+            <p class="role">Product Design Manager</p>
             <ul>
-              <li>Created logos, posters, and digital content for clients.</li>
-              <li>Worked with small businesses to build brand identity.</li>
-              <li>Designed user-friendly layouts for websites and social media.</li>
+              <li>Working with the wider development team.</li>
+              <li>Manage website design, content, and SEO Marketing, Branding and Logo design.</li>
             </ul>
           </article>
           <article>
-            <h3>Internship – Web Designer</h3>
-            <p class="role">2024</p>
+            <div class="job-header">
+              <h3>Arowwai Industries</h3>
+              <span class="date">2026 – 2027</span>
+            </div>
+            <p class="role">Product Design Manager</p>
             <ul>
-              <li>Assisted in designing front-end website layouts.</li>
-              <li>Collaborated with developers to implement UI/UX improvements.</li>
-              <li>Learned responsive design and mobile-first approach.</li>
+              <li>Working with the wider development team.</li>
+              <li>Manage website design, content, and SEO Marketing, Branding and Logo design.</li>
+            </ul>
+          </article>
+          <article>
+            <div class="job-header">
+              <h3>Ginyard International Co.</h3>
+              <span class="date">2025 – 2026</span>
+            </div>
+            <p class="role">Product Design Manager</p>
+            <ul>
+              <li>Working with the wider development team.</li>
+              <li>Manage website design, content, and SEO Marketing, Branding and Logo design.</li>
             </ul>
           </article>
         </section>
